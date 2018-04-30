@@ -18,7 +18,7 @@ const createListElement = (e) => {
     userInput.value = "";
 }
 
-// const addListAfterClick = (inputLength() > 0) = createListElement();
+const addListAfterClick = (inputLength() > 0) = createListElement();
 
 const addListAfterKeypress = (event) => {
     if (inputLength() > 0 && event.keyCode === 13) {
